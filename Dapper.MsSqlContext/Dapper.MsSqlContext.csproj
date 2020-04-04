@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Stanislav Zechmeister</Authors>
+    <Description>Dapper.DataContext implementation for Microsoft SQL Server. You can use package in .NET Core. It's prepared for DI containers</Description>
+    <PackageTags>Dapper, Dapper.DataContext, SqlClient</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.DataContext" Version="1.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+</Project>
